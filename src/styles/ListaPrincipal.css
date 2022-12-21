@@ -1,0 +1,59 @@
+.header-list {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center
+}
+.header-list span {
+  margin-right: 10px;
+}
+
+.title-header {
+  color: #fff;
+  display: inline-block;
+}
+
+.box-pelis-principal {
+  width: 100%;
+  min-height: 800px;
+  padding: 20px;
+}
+
+.pelis-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  border: 1px solid #fff;
+}
+
+.card-container {
+  width: min-content;
+  margin: 3px 5px;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+.card-container img {
+  width: 100%;
+  height: auto;
+}
+
+.button-container {
+  width: 80%;
+  height: 30px;
+  display: flex;
+  margin: auto;
+}
+.button-container button {
+  width: 100%;
+  font-size: 18px;
+  background-color: rgb(39, 124, 235);
+  color: #fff;
+  cursor: pointer;
+}

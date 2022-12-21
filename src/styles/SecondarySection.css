@@ -1,0 +1,10 @@
+.container-section {
+    width: 340px;
+    height: 100%;
+    border: 1px solid #fff;
+}
+.item-container {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+}
